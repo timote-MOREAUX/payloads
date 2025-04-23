@@ -9,3 +9,4 @@ public class Wallpaper {
 }
 "@
 [Wallpaper]::SystemParametersInfo(20, 0, $imagePath, 3)
+[System.Environment]::Exit(0)
