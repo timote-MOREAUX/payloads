@@ -1,4 +1,4 @@
-$imageUrl = "https://cdn.wallpapersafari.com/53/89/LefMat.png"
+$imageUrl = "https://raw.githubusercontent.com/timote-MOREAUX/payloads/refs/heads/main/flipper/wpp1.png"
 $imagePath = "$env:TEMP\wallpaper.jpg"
 Invoke-WebRequest -Uri $imageUrl -OutFile $imagePath
 Add-Type @"
